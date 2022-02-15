@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #d0d0d0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 15px auto 0 auto;
+  border-bottom: 2px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: top;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid #FFFFFF;
+}
+nav .links a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav .links span {
+  color: #79ADDC;
+  margin: 0 20px;
+}
+
+header {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -95px auto 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,9 @@
+header{
+    max-width: $headerFooterWidth;
+    height: $headerHeight;
+    background-image: linear-gradient(rgba($siteBlack, 0.45), rgba($siteBlack, 0.45)), url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -95px auto 0 auto;
+}

@@ -1,0 +1,26 @@
+nav{
+    max-width: $siteWidth;
+    height: 80px;
+    margin: 15px auto 0 auto;
+    border-bottom: 2px solid $siteWhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: top;
+    .logo{
+        width: 92px;
+        height: 42px;
+        border: 2px solid $siteWhite;
+    }
+    .links{
+        a{
+            color: $siteWhite;
+            text-decoration: none;
+        }
+        span{
+            color: $siteBlue;
+            margin: 0 20px;
+        }
+    }
+}
